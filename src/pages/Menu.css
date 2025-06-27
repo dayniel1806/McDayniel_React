@@ -5,3 +5,15 @@
     display: flex;
     max-height: 1080px;
 }
+
+#menu_header {
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 36px;
+  text-align: center;
+  display: block;
+  position: relative;
+  color: orangered;
+}
+

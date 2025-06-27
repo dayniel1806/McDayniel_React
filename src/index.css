@@ -1,7 +1,9 @@
 body{
     background-color: #05061b;
     color: white;
+    overflow-x: hidden;
 }
+
 
 .material-symbols-outlined {
   font-variation-settings:
