@@ -1,9 +1,8 @@
-
-
-.menuBars{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    display: flex;
-    max-height: 1080px;
+.CardRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 20px;
+  margin-left: 5%;
 }
 
 #menu_header {
@@ -16,4 +15,3 @@
   position: relative;
   color: orangered;
 }
-

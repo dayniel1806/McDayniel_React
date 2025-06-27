@@ -1,0 +1,102 @@
+      <div className="card">
+        <div className="CardText">
+          <h3>{name}</h3>
+          <h3> {price} </h3>
+        </div>
+        <img src={image} alt="" />
+        <div className="CardTextMoreInfo">
+          <p>{content}</p>
+          <div className="CardDivButtons">
+            <button className="CardOrderButtons">
+              <a href="#">Order Now</a>
+            </button>
+          </div>
+        </div>
+    </div>
+
+
+
+
+
+    #menu_header {
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 36px;
+  text-align: center;
+  display: block;
+  position: relative;
+  color: orangered;
+}
+
+.card {
+  background: rgba(72, 69, 69, 0.119);
+  margin: 40px;
+  height: 65vh;
+  width: 245px;
+  position: relative;
+  border-radius: 40px;
+  border-style: ridge;
+  border-color: white;
+  justify-content: center;
+  margin: 45px;
+  padding-right: 70px;
+
+  font-family: "WDXL Lubrifont TC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card img {
+  width: 200px;
+  height: 205px;
+  padding-left: 50px;
+}
+
+.card:hover {
+  border: 3px solid orangered;
+}
+
+.CardText {
+  display: flex;
+  font-size: 12px;
+  text-align: center;
+  padding-left: 30px;
+}
+.CardText h3:nth-child(1) {
+  padding-left: 10px;
+  color: white;
+}
+.CardText h3:nth-child(2) {
+  margin-left: 90px;
+  color: orangered;
+}
+.CardTextMoreInfo {
+  font-size: 15px;
+  margin-left: 25%;
+  text-align: center;
+  width: 100%;
+}
+.CardOrderButtons {
+  background: orangered;
+  color: white;
+  border: none;
+  padding: 1rem 2.5rem;
+  font-size: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.2s
+    , box-shadow 0.2s;
+  text-align: center;
+  animation: glow;
+}
+
+.CardOrderButtons:hover {
+  background: linear-gradient(to right, #ff5e3a, #ff2a68);
+}
+
+.CardOrderButtons a {
+  text-decoration: none;
+  color: white;
+}
+

@@ -1,0 +1,63 @@
+.CardInfo span {
+  /* margin-left: 10%; */
+  margin-top: 5%;
+  justify-content: space-between;
+}
+.CardInfo {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+.Card img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+.CardContent {
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  align-items: center;     /* vertical centering */
+  height: 100px;           /* set height for vertical centering */
+  width: 100%;
+}
+
+.CardImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 100%;
+}
+.CardContent p {
+  text-align: center;
+  width: 100%;
+}
+
+
+
+.Card {
+  width: 90%;
+  align-items: center;
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+  font-family: "WDXL Lubrifont TC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.CardOrder button {
+  background: orangered;
+  display: block;
+  margin: 0 auto;
+  border-style: none;
+  margin-bottom: 5%;
+  color: white;
+  height: 50px;
+  width: 120px;
+  border-radius: 24px;
+}
+
+.CardOrder a{
+    text-decoration: none;
+}
