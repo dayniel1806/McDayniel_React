@@ -1,0 +1,72 @@
+#page1_header{
+    top: 25vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 3%;
+    width: 55%;
+    position: absolute;
+}
+
+#page1_header h1{
+    font-size: 90px;
+}
+#page1_picture{
+    padding-top: 5%;
+    padding-left: 66%;
+}
+
+
+
+#page1_buttons{
+    padding-top: 5%;
+}
+ 
+
+#page1_buttons button:nth-child(1){
+    background: orangered;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    border-color: #05061b;
+    height: 70px;
+    width: 150px;
+    border-style: none;
+}
+
+#page1_buttons button:nth-child(2){
+    background: black;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    border-color: #05061b;
+    height: 70px;
+    width: 150px;
+}
+#page1_buttons button:nth-child(1) a{
+    text-decoration: none;
+    color: white;
+}
+#page1_buttons button:nth-child(2) a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    background-color: #05061b;
+}
+
+
+.bounce {
+    animation: bounce 3s infinite;
+    width: 90%;
+}
+
+@keyframes bounce {
+    0%, 100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+}
+

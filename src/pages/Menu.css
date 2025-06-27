@@ -1,0 +1,7 @@
+
+
+.menuBars{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    max-height: 1080px;
+}
