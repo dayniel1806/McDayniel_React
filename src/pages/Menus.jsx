@@ -16,8 +16,6 @@ const Menu = () => {
         <h2>TASTY MENU</h2>
       </div>
       <div className="CardRow">
-
-
         {burgers.map((burger, index) => (
           <div key={index}>
             <Card
