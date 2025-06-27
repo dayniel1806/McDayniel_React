@@ -1,6 +1,8 @@
 import React from "react";
 import Card from "../components/Cards";
 import "./Menu.css";
+//import the burgers data
+// Assuming burgers data is exported from burgersInfo.jsx
 import burgers from "../components/BurgersInfo.jsx";
 
 
