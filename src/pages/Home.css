@@ -1,60 +1,56 @@
-#page1_header{
-    top: 25vh;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left: 3%;
-    width: 55%;
-    position: absolute;
+#page1_header {
+  top: 25vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-left: 3%;
+  width: 55%;
+  position: absolute;
 }
 
-#page1_header h1{
-    font-size: 90px;
+#page1_header h1 {
+  font-size: 90px;
 }
-#page1_picture{
-    padding-top: 5%;
-    padding-left: 66%;
-}
-
-
-
-#page1_buttons{
-    padding-top: 5%;
-}
- 
-
-#page1_buttons button:nth-child(1){
-    background: orangered;
-    color: white;
-    font-size: 20px;
-    border-radius: 50px;
-    border-color: #05061b;
-    height: 70px;
-    width: 150px;
-    border-style: none;
+#page1_picture {
+  padding-top: 5%;
+  padding-left: 66%;
 }
 
-#page1_buttons button:nth-child(2){
-    background: black;
-    border-style: none;
-    color: white;
-    font-size: 20px;
-    border-radius: 50px;
-    border-color: #05061b;
-    height: 70px;
-    width: 150px;
-}
-#page1_buttons button:nth-child(1) a{
-    text-decoration: none;
-    color: white;
-}
-#page1_buttons button:nth-child(2) a{
-    text-decoration: none;
-    color: white;
+#page1_buttons {
+  padding-top: 5%;
 }
 
-button{
-    background-color: #05061b;
+#page1_buttons button:nth-child(1) {
+  background: orangered;
+  color: white;
+  font-size: 20px;
+  border-radius: 50px;
+  border-color: #05061b;
+  height: 70px;
+  width: 150px;
+  border-style: none;
 }
 
+#page1_buttons button:nth-child(2) {
+  background: black;
+  border-style: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 50px;
+  border-color: #05061b;
+  height: 70px;
+  width: 150px;
+}
+#page1_buttons button:nth-child(1) a {
+  text-decoration: none;
+  color: white;
+}
+#page1_buttons button:nth-child(2) a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background-color: #05061b;
+}
 
 .bounce {
   top: -25%;
@@ -65,10 +61,25 @@ button{
 }
 
 @keyframes blob-move {
-  0%, 100% {
+  0%,
+  100% {
     transform: scale(1) translate(0, 0);
   }
   50% {
-    transform: scale(1.05) translate(7px, -7px);
+    transform: scale(1.05) translate(20px, -20px);
   }
+}
+
+.FullMenu_Button button {
+  padding: 15px 50px;
+  border-radius: 12px;
+  color: orangered;
+  font-family: "WDXL Lubrifont TC", sans-serif;
+  font-size: 20px;
+  background-color: #150c59;
+  border-style: none;
+}
+
+.FullMenu_Button {
+  margin: 2% 0 0 45%;
 }

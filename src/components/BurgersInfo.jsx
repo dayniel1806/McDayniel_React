@@ -27,25 +27,25 @@ const burgers = [
       "Whether made with ground chicken or whole chicken breast, the Chicken burger, caters to various tastes and preferences",
     image: pic3,
   },
-  {
-    name: "In-N-Out Double Double",
-    price: "$12.99",
-    content:
-      "The Double-Double, a West Coast favorite from the popular In-N-Out chain, features two beef patties, two slices of cheese, lettuce, tomato, onion, and a signature spread",
-    image: pic4,
-  },
-  {
-    name: "Lamb Burger",
-    price: "$12.99",
-    content: "Simple put, why not!",
-    image: pic5,
-  },
-  {
-    name: "Falafel burger",
-    price: "$12.99",
-    content:
-      "The Falafel burger is an excellent choice for vegetarians and vegans, made from a blend of chickpeas, herbs, and spices.",
-    image: pic6,
-  },
+  // {
+  //   name: "In-N-Out Double Double",
+  //   price: "$12.99",
+  //   content:
+  //     "The Double-Double, a West Coast favorite from the popular In-N-Out chain, features two beef patties, two slices of cheese, lettuce, tomato, onion, and a signature spread",
+  //   image: pic4,
+  // },
+  // {
+  //   name: "Lamb Burger",
+  //   price: "$12.99",
+  //   content: "Simple put, why not!",
+  //   image: pic5,
+  // },
+  // {
+  //   name: "Falafel burger",
+  //   price: "$12.99",
+  //   content:
+  //     "The Falafel burger is an excellent choice for vegetarians and vegans, made from a blend of chickpeas, herbs, and spices.",
+  //   image: pic6,
+  // },
 ];
 export default burgers

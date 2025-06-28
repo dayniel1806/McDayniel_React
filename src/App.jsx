@@ -13,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/menus" element={<Menus />} />
         <Route path="/order" element={<Order />} />
+        {/* <Route path="/menuPart" element = {<MenuPart/>}/> */}
       </Routes>
     </Router>
   );
