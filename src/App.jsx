@@ -12,7 +12,7 @@ import ScrollToTop from "./components/ScrollToTop";function App() {
       <Router>
         <ScrollToTop />
         <Nav />
-        <Routes>
+        <Routes basename={process.env.PUBLIC_URL}>
           <Route path="/" element={<Home />} />
           <Route path="/menus" element={<Menus />} />
           <Route path="/order" element={<Order />} />
