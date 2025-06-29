@@ -2,6 +2,8 @@ import "./Home.css";
 import bigBurger from "../assets/drip.png";
 import MenuPart from "../components/MenuPart";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
+import Card from "../components/Cards";
 // import Menus from './Menus';
 function Home() {
   return (
@@ -26,12 +28,18 @@ function Home() {
       <div id="page1_picture">
         <img src={bigBurger} alt="" className="bounce" />
       </div>
-      <MenuPart />
+      <div id="menu_header">
+        <h2>TASTY MENU</h2>
+      </div>
+      <MenuPart limit={3} />
+
+
       <div className="FullMenu_Button">
         <Link to="/menus">
           <button>Our Full Menu</button>
         </Link>
       </div>
+      <Footer />
     </>
   );
 }

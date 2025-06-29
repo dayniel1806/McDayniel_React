@@ -4,18 +4,15 @@ import "./MenuPart.css";
 import burgers from "./BurgersInfo.jsx";
 import { Link } from "react-router-dom";
 
+const staticPrice = "$12.30";
 
 
-
-const MenuPart = () => {
-  const staticPrice = "$12.30";
+const MenuPart = ({ limit }) => {
+  const itemsToShow = limit ? burgers.slice(0, limit) : burgers;
   return (
     <>
-      <div id="menu_header">
-        <h2>TASTY MENU</h2>
-      </div>
       <div className="CardRow">
-        {burgers.map((burger, index) => (
+        {itemsToShow.map((burger, index) => (
           <div key={index}>
             <Card
               name={burger.name}

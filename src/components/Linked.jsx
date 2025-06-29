@@ -12,17 +12,9 @@ function Linked() {
             <Link to="/menus">Menu</Link>
           </li>
           <li className="nav_write">
-            <Link to="/popular">Popular</Link>
+            <Link to="/ourStory">Our Story</Link>
           </li>
-          <li className="nav_write">
-            <Link to="/contact">Contact</Link>
-          </li>
-          <li className="nav_write">
-            <Link to="/review">Review</Link>
-          </li>
-          <li className="nav_write">
-            <Link to="/order">Order now</Link>
-          </li>
+            <Link  className="OrderBtn" to="/order">Order now</Link>
         </ul>
       </div>
     </>

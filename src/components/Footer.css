@@ -1,0 +1,26 @@
+
+/* Footer Styles */
+.footer {
+  background-color: gray;      
+  color: #fff;                 
+  margin-top: 5%;
+  bottom: auto;
+  text-align: center;
+  padding: 20px 10px;
+  width: 100vw;
+}
+
+.footer a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-content{
+    width: 100%;
+}
+
+.footer a:hover {
+  color: #1e90ff; /* Dodger blue on hover */
+}

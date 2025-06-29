@@ -16,11 +16,9 @@ const Card = ({ image, content, name, price }) => {
         <div className="CardContent">
           <p>{content}</p>
         </div>
-        <div className="CardOrder">
-          <Link to="/order">
-            <button>Order Now</button>
-          </Link>
-        </div>
+        <Link className="CardOrder" to="/order">
+          Order Now
+        </Link>
       </div>
     </>
   );
