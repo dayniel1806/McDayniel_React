@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://dayniel1806.github.io/McDayniel_React",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
