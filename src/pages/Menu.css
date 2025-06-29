@@ -1,0 +1,28 @@
+.MenuBackground {
+  background-image: url("/src/assets/images/menu-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#menu_header {
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 36px;
+  margin-bottom: 0;
+  text-align: center;
+  display: block;
+  position: relative;
+  color: orangered;
+}
+
+#menu_header h2{
+  margin-bottom: 2%;
+}
+

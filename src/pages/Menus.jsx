@@ -1,14 +1,18 @@
 import React from "react";
 import "./Menu.css";
 import Footer from "../components/Footer";
-import MenuPart from "../components/MenuPart"
+import MenuPart from "../components/MenuPart";
 import burgers from "../components/BurgersInfo.jsx";
+import MenuBg from "../assets/menu.png";
+import { useState, useEffect } from "react";
+import FadeInUp from "../components/FadeInUp";
+
 function Menus() {
   return (
-    <> 
-    <div id="menu_header">
-        <h2>TASTY MENU</h2>
-      </div>
+    <>
+      <FadeInUp>
+        <img src={MenuBg} className="MenuBackground" alt="" />
+      </FadeInUp>
       <MenuPart />
       <Footer />
     </>
