@@ -12,7 +12,7 @@ import ScrollToTop from "./components/ScrollToTop";function App() {
       <Router>
         <ScrollToTop />
         <Nav />
-        <Routes basename="McDayniel_React">
+        <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/menus" element={<Menus />} />
           <Route path="/order" element={<Order />} />
