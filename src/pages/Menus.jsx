@@ -6,15 +6,14 @@ import burgers from "../components/BurgersInfo.jsx";
 import MenuBg from "../assets/menu.png";
 import { useState, useEffect } from "react";
 import FadeInUp from "../components/FadeInUp";
-
 function Menus() {
   return (
-    <>
-      <FadeInUp>
-        <img src={MenuBg} className="MenuBackground" alt="" />
-      </FadeInUp>
-      <MenuPart />
-      <Footer />
+    <>=
+        <FadeInUp>
+          <img src={MenuBg} className="MenuBackground" alt="" />
+        </FadeInUp>
+        <MenuPart />
+        <Footer />
     </>
   );
 }
