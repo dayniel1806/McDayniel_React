@@ -1,7 +1,7 @@
 .StoryPart {
   font-family: "WDXL Lubrifont TC", sans-serif;
-  height: 85vh;
   margin-top: 2%;
+  height: 85vh;
 }
 
 .StoryPart:nth-child(odd) .StoryImage {
