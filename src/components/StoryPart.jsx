@@ -6,9 +6,9 @@ function StoryPart({ image, title, content }) {
       <div className="StoryPart">
         <img src={image} className="StoryImage" alt="" />
         <div className="borderBg1"></div>
-        <div className="borderBg2"></div>
         <div className="Story1Content"> 
-            <h2>{content} </h2>   
+            <h1> {title} </h1>
+            <p>{content} </p>   
         </div>
       </div>
     </>

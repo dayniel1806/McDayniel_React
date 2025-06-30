@@ -1,41 +1,59 @@
 .StoryPart {
   font-family: "WDXL Lubrifont TC", sans-serif;
-
+  height: 85vh;
   margin-top: 2%;
 }
 
-.StoryImage {
+.StoryPart:nth-child(odd) .StoryImage {
   width: 50%;
-  background: orangered;
   position: absolute;
   transition: width 1s, border-bottom-left-radius 1s;
 }
 
-.StoryImage:hover {
+.StoryPart:nth-child(odd) .StoryImage:hover {
   width: 700px;
   border-bottom-left-radius: 23px;
   border-bottom-right-radius: 23px;
 }
 
-.borderBg1 {
+.StoryPart:nth-child(even) .StoryImage {
+  width: 50%;
+  margin-left: 52%;
+  position: absolute;
+  transition: width 1s, border-bottom-left-radius 1s;
+
+}
+
+.StoryPart:nth-child(even) .StoryImage:hover {
+  width: 700px;
+  border-bottom-left-radius: 23px;
+}
+
+.StoryPart:nth-child(odd) .borderBg1 {
   background-color: orangered;
   width: 700px;
   height: 466px;
-  border-bottom-left-radius: 23px;
   border-bottom-right-radius: 23px;
+  border-bottom-left-radius: 23px;
   transition: width 1s;
 }
 
-/* .borderBg2 {
-  background-color: white;
-  width: 600px;
-  height: 50px;
+.StoryPart:nth-child(even) .borderBg1 {
+  background-color: orangered;
+  width: 730px;
+  margin-left: 47%;
+  height: 466px;
   border-bottom-left-radius: 23px;
-  border-bottom-right-radius: 23px;
-} */
+}
 
-.Story1Content {
+.StoryPart:nth-child(odd) .Story1Content {
   margin-left: 59%;
+  margin-top: -30%;
+  position: absolute;
+}
+
+.StoryPart:nth-child(even) .Story1Content {
+  margin-right: 59%;
   margin-top: -30%;
   position: absolute;
 }
