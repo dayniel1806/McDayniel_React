@@ -20,13 +20,14 @@
   width: 50%;
   margin-left: 52%;
   position: absolute;
-  transition: width 1s, border-bottom-left-radius 1s;
-
+  transition: margin-left 1s, width 1s, border-bottom-left-radius 1s;
+  /* transition: tra; */
 }
 
 .StoryPart:nth-child(even) .StoryImage:hover {
   width: 700px;
   border-bottom-left-radius: 23px;
+  margin-left: 47%;
 }
 
 .StoryPart:nth-child(odd) .borderBg1 {
@@ -45,6 +46,8 @@
   height: 466px;
   border-bottom-left-radius: 23px;
 }
+
+
 
 .StoryPart:nth-child(odd) .Story1Content {
   margin-left: 59%;

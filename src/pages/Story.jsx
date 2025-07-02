@@ -4,7 +4,7 @@ import FadeInUp from "../components/FadeInUp";
 import StoryPart from "../components/StoryPart.jsx";
 import pic1 from "../assets/review/satisfied.jpg";
 import pic2 from "../assets/review/veggies.jpg";
-
+import pic3 from "../assets/review/TopView.jpg";
 function Story() {
   return (
     <FadeInUp>
