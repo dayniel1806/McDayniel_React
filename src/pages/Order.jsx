@@ -214,7 +214,7 @@
 
 // export default OrderPage;
 
-import pic1 from "../assets/ORDER.png";
+import pic1 from "../assets/order.jpg";
 import pic2 from "../assets/flex.jpg";
 import "./Order.css";
 import { Link } from "react-router-dom";
@@ -224,9 +224,30 @@ function Order() {
   return (
     <>
       <FadeInUp>
-
-        {/* <img className="orderBanner" src={pic1} alt="" /> */}
-        <h1>ORDER</h1>
+        <img className="orderBanner" src={pic1} alt="" />
+        <FadeInUp>
+          <div className="banner">
+            <span>
+              <h2>BURGER PLACES NEAR ME</h2>
+              <h3>
+                To order, enter your delivery address <br /> Item availability
+                and pricing is location specific
+              </h3>
+              <form action="post">
+                <label htmlFor="OrderType">Order Type</label> <br />
+                <select name="OrderType" id="OrderType">
+                  <option value="Pickup">Pickup</option>
+                  <option value="Delivery" selected>
+                    Delivery
+                  </option>
+                </select>
+              </form>
+            </span>
+          </div>
+        </FadeInUp>
+        <form className="DeliveryForm" action="post">
+          <legend>YOUR DELIVERY ADDRESS</legend>
+        </form>
       </FadeInUp>
     </>
   );
