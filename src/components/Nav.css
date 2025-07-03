@@ -15,7 +15,7 @@ nav{
 #nav_bar {
   top: 0px;
   left: 0px;
-  width: 100%;
+  width: 100vw;
   height: 97px;
   /* border-bottom-color: white; */
   background-color: #05061b;
@@ -26,6 +26,7 @@ nav{
 #nav_left {
   margin-top: -10px;
 }
+
 #nav_bar #nav {
   float: right;
   padding-top: 10px;
@@ -50,8 +51,10 @@ nav{
   color: white;
   font-size: 17px;
 }
+
+
 #nav li a:hover {
-  color: goldenrod;
+  color: orangered;
 }
 
 #logo {
@@ -73,6 +76,7 @@ nav{
   letter-spacing: 0.1em;
   text-transform: uppercase;
   border-radius: 10px;
+  margin-right: 40px;
   margin-top: 0;
   padding: 24px 50px;
   font-family: Montserrat, sans-serif;

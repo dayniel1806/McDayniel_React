@@ -57,7 +57,7 @@
 
 //   return (
 //     <div className="max-w-4xl mx-auto p-6 grid md:grid-cols-2 gap-8 bg-white rounded-2xl shadow-xl">
-      
+
 //       {/* Left: Form */}
 //       <form onSubmit={handleSubmit} className="space-y-6">
 //         <h2 className="text-3xl font-bold">🍔 Build Your Burger</h2>
@@ -214,9 +214,22 @@
 
 // export default OrderPage;
 
+import pic1 from "../assets/ORDER.png";
+import pic2 from "../assets/flex.jpg";
+import "./Order.css";
+import { Link } from "react-router-dom";
+import FadeInUp from "../components/FadeInUp";
 
 function Order() {
-    return <h2>Order Page</h2>;
+  return (
+    <>
+      <FadeInUp>
+
+        {/* <img className="orderBanner" src={pic1} alt="" /> */}
+        <h1>ORDER</h1>
+      </FadeInUp>
+    </>
+  );
 }
 
 export default Order;
