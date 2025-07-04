@@ -42,19 +42,52 @@ select {
 select option {
   background-color: #f0f0f0; /* change as needed */
   color: #333;
-
 }
 
-
-option::selection{
+option::selection {
   background-color: grey;
 }
 select:focus {
   border-color: #000;
 }
 
+.DeliveryForm {
+  text-align: center;
+  font-family: "WDXL Lubrifont TC", sans-serif;
+  margin-top: 15%;
+}
 
-.DeliveryForm{
-    background-color: red;
-    position: absolute;
+.FormLabel {
+  text-align: center;
+}
+
+.FormInput {
+  width: 400px;
+  border-radius: 8px;
+  height: 35px;
+  font-size: 1.1em;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.FormPart {
+  margin-top: 5%;
+}
+
+.FormButton {
+  margin-top: 5%;
+  background-color: orangered;
+  width: 400px;
+  font-family: "WDXL Lubrifont TC", sans-serif;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  height: 35px;
+  color: white;
+  font-size: 1em;
+}
+
+
+.FormButton:hover{
+    background-color: transparent;
+    border: 1px solid white;
 }

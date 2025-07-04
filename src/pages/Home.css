@@ -18,6 +18,7 @@
   padding-top: 5%;
 }
 
+
 #page1_buttons button:nth-child(1) {
   background: orangered;
   color: white;
@@ -77,7 +78,10 @@ button {
   font-family: "WDXL Lubrifont TC", sans-serif;
   font-size: 20px;
   background-color: #150c59;
-  border-style: none;
+  border: 1px solid white;
+}
+.FullMenu_Button button:hover{
+  color: white;
 }
 
 .FullMenu_Button {
