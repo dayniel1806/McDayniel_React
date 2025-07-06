@@ -1,3 +1,5 @@
+@media (min-width: 1025px) {
+  /* CSS rules for large screens/desktops */
 :root {
   --primary-dark: #05061b;
   --primary: orangered;
@@ -91,4 +93,5 @@ nav{
   border-color: var(--white);
   background-color: var(--primary-dark);
   color: var(--linen);
+}
 }

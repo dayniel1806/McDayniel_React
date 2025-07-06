@@ -1,5 +1,6 @@
 
-/* Footer Styles */
+@media (min-width: 1025px) {
+  /* CSS rules for large screens/desktops */
 .footer {
   background-color: gray;      
   color: #fff;                 
@@ -23,4 +24,5 @@
 
 .footer a:hover {
   color: #1e90ff; /* Dodger blue on hover */
+}
 }

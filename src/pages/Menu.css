@@ -1,4 +1,5 @@
-.MenuBackground {
+@media (min-width: 1025px) {
+  .MenuBackground {
   background-image: url("/src/assets/images/menu-background.jpg");
   background-size: cover;
   background-position: center;
@@ -26,3 +27,4 @@
   margin-bottom: 2%;
 }
 
+}

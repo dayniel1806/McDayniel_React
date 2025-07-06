@@ -1,3 +1,5 @@
+@media (min-width: 1025px) {
+  /* CSS rules for large screens/desktops */
 .CardInfo span {
   /* margin-left: 10%; */
   margin-top: 5%;
@@ -76,4 +78,5 @@
   border-color: white;
   background-color: transparent;
   color: orangered;
+}
 }

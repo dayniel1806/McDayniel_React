@@ -1,3 +1,4 @@
+@media (min-width: 1025px) {
 .orderBanner {
   width: 100vw;
   height: 95vh;
@@ -37,11 +38,12 @@ select {
   /* border: 4px solid transparent;
   border-image: linear-gradient(to right, #ff7e5f, #feb47b);
   border-image-slice: 1;  */
-  font-size: 1.2em;
+  font-size: 1.0em;
 }
 select option {
   background-color: #f0f0f0; /* change as needed */
   color: #333;
+  width: 400px;
 }
 
 option::selection {
@@ -74,6 +76,9 @@ select:focus {
   margin-top: 5%;
 }
 
+
+
+
 .FormButton {
   margin-top: 5%;
   background-color: orangered;
@@ -90,4 +95,5 @@ select:focus {
 .FormButton:hover{
     background-color: transparent;
     border: 1px solid white;
+}
 }

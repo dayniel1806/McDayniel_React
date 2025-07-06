@@ -1,3 +1,4 @@
+@media (min-width: 1025px) {
 .StoryPart {
   font-family: "WDXL Lubrifont TC", sans-serif;
   margin-top: 2%;
@@ -18,16 +19,15 @@
 
 .StoryPart:nth-child(even) .StoryImage {
   width: 50%;
-  margin-left: 52%;
+  margin-left: 55%;
   position: absolute;
   transition: margin-left 1s, width 1s, border-bottom-left-radius 1s;
-  /* transition: tra; */
 }
 
 .StoryPart:nth-child(even) .StoryImage:hover {
-  width: 700px;
+  width: 702px;
   border-bottom-left-radius: 23px;
-  margin-left: 47%;
+  margin-left: 51%;
 }
 
 .StoryPart:nth-child(odd) .borderBg1 {
@@ -41,8 +41,8 @@
 
 .StoryPart:nth-child(even) .borderBg1 {
   background-color: orangered;
-  width: 730px;
-  margin-left: 47%;
+  width: 702px;
+  margin-left: 51%;
   height: 466px;
   border-bottom-left-radius: 23px;
 }
@@ -59,4 +59,5 @@
   margin-right: 59%;
   margin-top: -30%;
   position: absolute;
+}
 }
