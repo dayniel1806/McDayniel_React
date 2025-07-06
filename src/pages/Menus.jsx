@@ -1,4 +1,5 @@
 import React from "react";
+import "./Responsive design/TabCard.css";
 import "./Menu.css";
 import Footer from "../components/Footer";
 import MenuPart from "../components/MenuPart";
@@ -8,12 +9,13 @@ import { useState, useEffect } from "react";
 import FadeInUp from "../components/FadeInUp";
 function Menus() {
   return (
-    <>=
-        <FadeInUp>
-          <img src={MenuBg} className="MenuBackground" alt="" />
-        </FadeInUp>
-        <MenuPart />
-        <Footer />
+    <>
+      =
+      <FadeInUp>
+        <img src={MenuBg} className="MenuBackground" alt="" />
+      </FadeInUp>
+      <MenuPart />
+      <Footer />
     </>
   );
 }

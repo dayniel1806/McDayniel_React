@@ -1,6 +1,6 @@
 @media (min-width: 769px) and (max-width: 1024px) {
   #page1_header {
-    top: 15vh;
+    top: 12vh;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     padding-left: 3%;
     width: 40%;
@@ -63,5 +63,20 @@
     50% {
       transform: scale(1.05) translate(20px, -20px);
     }
+  }
+  #menu_header {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 36px;
+    margin-bottom: 0;
+    text-align: center;
+    display: block;
+    position: relative;
+    color: orangered;
+  }
+
+  #menu_header h2 {
+    margin-bottom: 2%;
   }
 }

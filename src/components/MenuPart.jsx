@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "./Cards";
+import '../pages/Responsive design/TabMenuPart.css'
 import "./MenuPart.css";
 import burgers from "./BurgersInfo.jsx";
 import { Link } from "react-router-dom";

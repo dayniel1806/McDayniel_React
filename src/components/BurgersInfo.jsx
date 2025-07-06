@@ -59,7 +59,7 @@ const burgers = [
   },
   {
     image: pic8,
-    name: "Bacon Quarter Pounder burger",
+    name: "Bacon Quarter Pounder",
     price: "$12.99",
     content:
       "Each Bacon Quarter Pounder with Cheese burger features thick-cut applewood smoked bacon of 100% fresh beef that's cooked when you order.",
