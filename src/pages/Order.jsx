@@ -1,6 +1,7 @@
 import pic1 from "../assets/order.jpg";
 import pic2 from "../assets/flex.jpg";
 import "./Order.css";
+import '../pages/Responsive design/TabOrder.css'
 import { Link } from "react-router-dom";
 import FadeInUp from "../components/FadeInUp";
 import Footer from "../components/Footer";
