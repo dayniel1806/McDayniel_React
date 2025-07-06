@@ -1,6 +1,7 @@
 import Logo from "../assets/LOOOKL.png";
 import Linked from "./Linked";
 import "./Nav.css";
+import '../pages/Responsive design/TabNav.css';
 import { Link } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
