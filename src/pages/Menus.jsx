@@ -1,6 +1,7 @@
 import React from "react";
 import "./Responsive design/TabCard.css";
 import "./Menu.css";
+import '../pages/Responsive design/TabMenu.css'
 import Footer from "../components/Footer";
 import MenuPart from "../components/MenuPart";
 import burgers from "../components/BurgersInfo.jsx";

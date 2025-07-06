@@ -1,4 +1,5 @@
 import './Footer.css'
+import '../pages/Responsive design/TabFooter.css'
 function Footer() {
   return (
     <>
