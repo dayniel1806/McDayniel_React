@@ -14,9 +14,9 @@ function Menus() {
       =
       <FadeInUp>
         <img src={MenuBg} className="MenuBackground" alt="" />
-      </FadeInUp>
       <MenuPart />
       <Footer />
+      </FadeInUp>
     </>
   );
 }

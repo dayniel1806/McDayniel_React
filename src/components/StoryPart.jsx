@@ -1,5 +1,5 @@
 import "./Storypart.css";
-import "./StoryParts.js";
+import "../pages/Responsive design/TabStoryPart.css";
 function StoryPart({ image, title, content }) {
   return (
     <>

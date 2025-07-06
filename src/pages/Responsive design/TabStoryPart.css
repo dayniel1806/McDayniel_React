@@ -1,0 +1,62 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+  .StoryPart {
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    margin-top: 2%;
+    height: 30vh;
+  }
+  .StoryPart:nth-child(odd) .StoryImage {
+  width: 45%;
+  position: absolute;
+  transition: width 1s, border-bottom-left-radius 1s;
+}
+.StoryPart:nth-child(odd) .borderBg1 {
+  background-color: orangered;
+  width: 500px;
+  height: 330px;
+  border-bottom-right-radius: 23px;
+  transition: width 1s;
+}
+
+.StoryPart:nth-child(odd) .Story1Content {
+  margin-left: 54%;
+  margin-top: -30%;
+  position: absolute;
+}
+.StoryPart:nth-child(odd) .StoryImage:hover {
+  width: 500px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 23px;
+}
+
+
+
+.StoryPart:nth-child(even) .StoryImage {
+  width: 45%;
+  margin-left: 56%;
+  position: absolute;
+  transition: margin-left 1s, width 1s, border-bottom-left-radius 1s;
+}
+.StoryPart:nth-child(even) .borderBg1 {
+  background-color: orangered;
+  margin-left: 51%;
+  width: 500px;
+  height: 330px;
+  border-bottom-left-radius: 23px;
+  transition: width 1s;
+}
+.StoryPart:nth-child(even) .Story1Content {
+  margin-right: 55%;
+  margin-top: -30%;
+  position: absolute;
+}
+
+.StoryPart:nth-child(even) .StoryImage:hover {
+  width: 500px;
+  border-bottom-left-radius: 23px;
+  margin-left: 51%;
+  
+}
+
+
+
+}
