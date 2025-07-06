@@ -1,4 +1,5 @@
 import "./Home.css";
+import '../pages/Responsive design/TabHome.css'
 import bigBurger from "../assets/drip.png";
 import MenuPart from "../components/MenuPart";
 import { Link } from "react-router-dom";

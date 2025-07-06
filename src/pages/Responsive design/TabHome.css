@@ -1,3 +1,67 @@
 @media (min-width: 769px) and (max-width: 1024px) {
-    
+  #page1_header {
+    top: 15vh;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding-left: 3%;
+    width: 40%;
+    position: absolute;
+  }
+  #page1_header h1 {
+    font-size: 50px;
+  }
+  #page1_picture {
+    padding-top: 5%;
+    padding-left: 56%;
+  }
+
+  #page1_buttons {
+    padding-top: 5%;
+  }
+
+  #page1_buttons button:nth-child(1) {
+    background: orangered;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    border-color: #05061b;
+    height: 70px;
+    width: 150px;
+    border-style: none;
+  }
+
+  #page1_buttons button:nth-child(2) {
+    background: black;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 50px;
+    border-color: #05061b;
+    height: 70px;
+    width: 150px;
+  }
+  #page1_buttons button:nth-child(1) a {
+    text-decoration: none;
+    color: white;
+  }
+  #page1_buttons button:nth-child(2) a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .bounce {
+    /* width: 100%; */
+    height: 600px;
+    z-index: 1;
+    animation: blob-move 8s infinite ease-in-out;
+  }
+
+  @keyframes blob-move {
+    0%,
+    100% {
+      transform: scale(1) translate(0, 0);
+    }
+    50% {
+      transform: scale(1.05) translate(20px, -20px);
+    }
+  }
 }
