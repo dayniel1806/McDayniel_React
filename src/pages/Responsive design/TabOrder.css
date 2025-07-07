@@ -4,11 +4,11 @@
   }
 
   .banner {
-    height: 40vh;
+    height: 35vh;
     border-radius: 22px;
     background-color: white;
-    width: 40vw;
-    margin-left: 32%;
+    width: 49vw;
+    margin-left: 27%;
     margin-top: -60%;
   }
 
@@ -19,14 +19,88 @@
     font-family: "WDXL Lubrifont TC", sans-serif;
   }
   .banner span h2 {
-    padding-top: 20%;
-    font-size: 3em;
+    padding-top: 12%;
+    font-size: 3.6em;
     font-weight: 600;
   }
 
+  .banner h3{
+    margin-top: -20px;
+    font-size: 1.5em;
+  }
   label {
-    font-size: 1.5rem;
+    font-size: 2.3em;
     margin-bottom: 2%;
     font-weight: 500;
   }
+
+  select {
+  border-radius: 12px;
+  width: 400px;
+  height: 75px;
+  /* border: 4px solid transparent;
+  border-image: linear-gradient(to right, #ff7e5f, #feb47b);
+  border-image-slice: 1;  */
+  font-size: 1.0em;
+}
+select option {
+  background-color: #f0f0f0; /* change as needed */
+  color: #333;
+  width: 400px;
+}
+
+option::selection {
+  background-color: grey;
+}
+select:focus {
+  border-color: #000;
+}
+
+.DeliveryForm {
+  text-align: center;
+  font-family: "WDXL Lubrifont TC", sans-serif;
+  margin-top: 15%;
+}
+.DeliveryForm h2 {
+   font-size: 2.5em;
+  font-weight: 600;
+}
+.FormLabel {
+  text-align: center;
+}
+
+.FormInput {
+  width: 400px;
+  border-radius: 8px;
+  height: 35px;
+  font-size: 1.1em;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.FormPart {
+  margin-top: 5%;
+}
+
+
+
+
+.FormButton {
+  margin-top: 5%;
+  background-color: orangered;
+  width: 400px;
+  font-family: "WDXL Lubrifont TC", sans-serif;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  height: 35px;
+  color: white;
+  font-size: 1em;
+}
+
+
+.FormButton:hover{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
 }
