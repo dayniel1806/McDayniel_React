@@ -1,4 +1,5 @@
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+
   .MenuBackground {
     background-image: url("/src/assets/images/menu-background.jpg");
     background-size: cover;
