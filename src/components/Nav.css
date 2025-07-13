@@ -6,6 +6,13 @@
   --linen: #faf3eb;
   --white: white;
 }
+  .phoneNav{
+    display: none;
+  }
+
+.NavMenuBtn{
+  display: none;
+}
 .nav_write {
   font-family: sans-serif;
   font-size: small;
