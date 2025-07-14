@@ -4,7 +4,7 @@ function Linked() {
   return (
     <>
       <div id="nav">
-        <ul>
+        <ul className="nav-links">
           <li className="nav_write">
             <Link to="/">Home</Link>
           </li>

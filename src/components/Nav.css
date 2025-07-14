@@ -1,104 +1,116 @@
-@media (min-width: 1025px) {
-  /* CSS rules for large screens/desktops */
-:root {
-  --primary-dark: #05061b;
-  --primary: orangered;
-  --linen: #faf3eb;
-  --white: white;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-  .phoneNav{
-    display: none;
-  }
 
-.NavMenuBtn{
-  display: none;
-}
-.nav_write {
+body {
   font-family: sans-serif;
-  font-size: small;
-}
-nav{
-    height: 100%;
+  background-color: #02021a;
+  color: white;
 }
 
-#nav_bar {
-  top: 0px;
-  left: 0px;
-  width: 100vw;
-  height: 97px;
-  /* border-bottom-color: white; */
-  background-color: #05061b;
-  z-index: 999;
-  position: sticky;
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #02021a;
+  position: fixed;     /* <-- make it fixed */
+  top: 0;              /* stick to the top */
+  left: 0;
+  width: 100%;
+  z-index: 200;        /* higher than sidebar or other content */
 }
 
-#nav_left {
-  margin-top: -10px;
+.logo {
+  display: flex;
+  align-items: center;
 }
 
-#nav_bar #nav {
-  float: right;
-  padding-top: 10px;
+.logo-img {
+  height: 24px;
+  margin-right: 0.5rem;
 }
 
-#nav_logo {
-  margin: 0px;
-  float: left;
-  position: absolute;
-  width: 50px;
-  padding-top: 2%;
-}
-
-#nav li {
+.nav-links {
   list-style: none;
-  display: inline-block;
-  padding-right: 24px;
+  display: flex;
 }
 
-#nav li a {
+.nav-links li {
+  margin-left: 1.5rem;
+}
+
+.nav-links a {
   text-decoration: none;
   color: white;
-  font-size: 17px;
-}
-
-
-#nav li a:hover {
-  color: orangered;
-}
-
-#logo {
-  float: left;
-  padding-top: 0px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  padding-left: 50px;
-  font-size: large;
-  padding-top: 2%;
-  color: aliceblue;
+  font-weight: 500;
 }
 
 .OrderBtn {
-  border: 1px solid #ff0000;
-  background-color: var(--primary);
-  color: var(--white);
-  text-align: center;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  border-radius: 10px;
-  margin-right: 40px;
-  margin-top: 0;
-  padding: 24px 50px;
-  font-family: Montserrat, sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
-  display: inline-block;
+  background-color: #ff3c00;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  color: white;
   text-decoration: none;
+  /* margin: -5% 5%; */
 }
 
-.OrderBtn:hover {
-  border-color: var(--white);
-  background-color: var(--primary-dark);
-  color: var(--linen);
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
 }
+
+/* Sidebar styling */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #080831;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 2rem;
+  z-index: 100;
+}
+
+.sidebar.active {
+  width: 100vw;
+  height: 100vh;
+}
+
+.sidebar a {
+  margin-top: 10%;
+  display: block;
+  padding: 1rem 1.5rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  transition: background-color 0.2s;
+}
+
+.sidebar a:hover {
+  background-color: orangered;
+}
+
+.closebtn {
+  font-size: 2rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+/* Responsive: show hamburger, hide links on mobile */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
 }
