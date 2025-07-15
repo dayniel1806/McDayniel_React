@@ -17,11 +17,11 @@ body {
   align-items: center;
   padding: 1rem 2rem;
   background-color: #02021a;
-  position: fixed;     /* <-- make it fixed */
-  top: 0;              /* stick to the top */
+  position: fixed; /* <-- make it fixed */
+  top: 0; /* stick to the top */
   left: 0;
   width: 100%;
-  z-index: 200;        /* higher than sidebar or other content */
+  z-index: 200; /* higher than sidebar or other content */
 }
 
 .logo {
@@ -46,16 +46,26 @@ body {
 .nav-links a {
   text-decoration: none;
   color: white;
+  transition: 0.5s;
   font-weight: 500;
 }
 
+.nav-links a:hover{
+  color: rgb(202, 54, 0);
+}
 .OrderBtn {
-  background-color: #ff3c00;
-  padding: 0.4rem 0.8rem;
-  border-radius: 6px;
+  background: orangered;
   color: white;
-  text-decoration: none;
-  /* margin: -5% 5%; */
+  font-size: 1em;
+  padding: 0.8em 1.2rem;
+  border-radius: 12px;
+  transition: 0.5s;
+  border-style: none;
+}
+
+.OrderBtn:hover{
+  background: transparent;
+  border: 1px solid white;
 }
 
 .hamburger {
@@ -71,7 +81,8 @@ body {
   position: fixed;
   top: 0;
   right: 0;
-  background-color: #080831;
+  /* background-color: #080831; */
+  background-color: #02021a;
   overflow-x: hidden;
   transition: 0.3s;
   padding-top: 2rem;

@@ -14,7 +14,11 @@ function Linked() {
           <li className="nav_write">
             <Link to="/ourStory">Our Story</Link>
           </li>
-            <Link  className="OrderBtn" to="/order">Order now</Link>
+          <li>
+            <Link className="OrderBtn" to="/order">
+              Order now
+            </Link>
+          </li>
         </ul>
       </div>
     </>

@@ -4,7 +4,6 @@ import "./Nav.css";
 import { Link } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React, { useState } from "react";
-import "./Nav.css";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 

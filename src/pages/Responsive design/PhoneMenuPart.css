@@ -1,0 +1,23 @@
+@media (max-width: 767px) {
+  .CardRow {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin-left: 17%;
+  }
+  #menu_header {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1rem;
+    margin-bottom: 0;
+    text-align: center;
+    display: block;
+    position: relative;
+    color: orangered;
+  }
+
+  #menu_header h2 {
+    margin-bottom: 2%;
+  } 
+}

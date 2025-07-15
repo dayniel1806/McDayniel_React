@@ -1,0 +1,77 @@
+@media (max-width: 767px) {
+  #page1_header {
+    top: 20vh;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    padding-left: 5%;
+    width: 60%;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    position: absolute;
+  }
+
+  #page1_header h1 {
+    font-size: 1.5rem;
+  }
+
+  #page1_buttons {
+    padding-top: 10%;
+  }
+
+  #page1_buttons button:nth-child(1),
+  #page1_buttons button:nth-child(2) {
+    background: orangered;
+    color: white;
+    font-size: 0.5rem;
+    border-radius: 50px;
+    border-style: none;
+    height: 20px;
+    width: 50px;
+  }
+
+  #page1_buttons button:nth-child(2) {
+    background: black;
+  }
+
+  #page1_buttons button a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .bounce {
+    height: auto;
+    width: 50%;
+    overflow-x: hidden;
+    /* right: 100%; */
+    position: relative;
+    margin-top: 30%;
+    margin-left: 50vw;
+    z-index: 1;
+    animation: blob-move 8s infinite ease-in-out;
+  }
+
+  @keyframes blob-move {
+    0%,
+    100% {
+      transform: scale(1) translate(0, 0);
+    }
+    50% {
+      transform: scale(1.05) translate(20px, -20px);
+    }}
+  /*
+  .FullMenu_Button button {
+    padding: 15px 50px;
+    border-radius: 12px;
+    color: orangered;
+    font-family: "WDXL Lubrifont TC", sans-serif;
+    font-size: 20px;
+    background-color: #150c59;
+    border: 1px solid white;
+  }
+  .FullMenu_Button button:hover {
+    color: white;
+  }
+
+  .FullMenu_Button {
+    margin: 2% 0 0 45%;
+  } */
+}

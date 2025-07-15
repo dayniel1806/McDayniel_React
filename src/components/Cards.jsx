@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Card.css";
+import "../pages/Responsive design/TabCard.css";
+import "../pages/Responsive design/PhoneCard.css";
 
 const Card = ({ image, content, name, price }) => {
   return (
