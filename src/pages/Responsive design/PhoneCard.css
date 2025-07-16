@@ -2,6 +2,7 @@
   .CardInfo span {
     /* margin-left: 10%; */
     margin-top: 5%;
+    font-size: 0.8rem;
     justify-content: space-between;
   }
   .CardInfo {
@@ -32,11 +33,11 @@
   .CardContent p {
     text-align: center;
     width: 100%;
-    font-size: 0.8rem;
+    font-size: 0.65rem;
   }
 
   .Card {
-    width: 75%;
+    width: 100%;
     align-items: center;
     border: 1px solid whitesmoke;
     border-radius: 20px;
@@ -48,10 +49,11 @@
     transition: transform 1s ease;
   }
 
-  .Card:hover {
+
+  /* .Card:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transform: translateY(-10px);
-  }
+  } */
 
   .CardOrder {
     border: 0px solid black;
